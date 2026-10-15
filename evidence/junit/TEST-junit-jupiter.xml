@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JUnit Jupiter" tests="3" skipped="0" failures="0" errors="0" time="25.695" hostname="a7c94d2bc4d1" timestamp="2026-10-15T00:59:08">
+<properties>
+<property name="file.encoding" value="UTF-8"/>
+<property name="file.separator" value="/"/>
+<property name="java.class.path" value="/tmp/foundations-154/junit-platform-console-standalone-1.9.3.jar"/>
+<property name="java.class.version" value="61.0"/>
+<property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+<property name="java.io.tmpdir" value="/tmp"/>
+<property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+<property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+<property name="java.runtime.version" value="17.0.20.1+1-1-deb12u1-Debian"/>
+<property name="java.specification.maintenance.version" value="1"/>
+<property name="java.specification.name" value="Java Platform API Specification"/>
+<property name="java.specification.vendor" value="Oracle Corporation"/>
+<property name="java.specification.version" value="17"/>
+<property name="java.vendor" value="Debian"/>
+<property name="java.vendor.url" value="https://tracker.debian.org/openjdk-17"/>
+<property name="java.vendor.url.bug" value="https://bugs.debian.org/openjdk-17"/>
+<property name="java.version" value="17.0.20.1"/>
+<property name="java.version.date" value="2026-08-18"/>
+<property name="java.vm.compressedOopsMode" value="32-bit"/>
+<property name="java.vm.info" value="mixed mode, sharing"/>
+<property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+<property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+<property name="java.vm.specification.version" value="17"/>
+<property name="java.vm.vendor" value="Debian"/>
+<property name="java.vm.version" value="17.0.20.1+1-1-deb12u1-Debian"/>
+<property name="jdk.debug" value="release"/>
+<property name="line.separator" value="
+"/>
+<property name="native.encoding" value="UTF-8"/>
+<property name="os.arch" value="amd64"/>
+<property name="os.name" value="Linux"/>
+<property name="os.version" value="6.6.87.2-microsoft-standard-WSL2"/>
+<property name="path.separator" value=":"/>
+<property name="sun.arch.data.model" value="64"/>
+<property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
+<property name="sun.cpu.endian" value="little"/>
+<property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+<property name="sun.java.command" value="/tmp/foundations-154/junit-platform-console-standalone-1.9.3.jar --class-path /tmp/foundations-154/classes:/tmp/foundations-154/libs/mysql-connector-java-mysql-connector-java-8.0.29.jar:/tmp/foundations-154/libs/FastInfoset-FastInfoset-1.2.15.jar:/tmp/foundations-154/libs/spring-expression-spring-expression-5.3.22.jar:/tmp/foundations-154/libs/spring-orm-spring-orm-5.3.22.jar:/tmp/foundations-154/libs/protobuf-java-protobuf-java-3.19.4.jar:/tmp/foundations-154/libs/classmate-classmate-1.5.1.jar:/tmp/foundations-154/libs/byte-buddy-byte-buddy-1.12.9.jar:/tmp/foundations-154/libs/javax.activation-api-javax.activation-api-1.2.0.jar:/tmp/foundations-154/libs/hibernate-core-hibernate-core-5.6.12.Final.jar:/tmp/foundations-154/libs/spring-beans-spring-beans-5.3.22.jar:/tmp/foundations-154/libs/validation-api-validation-api-2.0.1.Final.jar:/tmp/foundations-154/libs/spring-jcl-spring-jcl-5.3.22.jar:/tmp/foundations-154/libs/jboss-transaction-api_1.2_spec-jboss-transaction-api_1.2_spec-1.1.1.Final.jar:/tmp/foundations-154/libs/istack-commons-runtime-istack-commons-runtime-3.0.7.jar:/tmp/foundations-154/libs/spring-aop-spring-aop-5.3.22.jar:/tmp/foundations-154/libs/jaxb-runtime-jaxb-runtime-2.3.1.jar:/tmp/foundations-154/libs/spring-jdbc-spring-jdbc-5.3.22.jar:/tmp/foundations-154/libs/spring-context-spring-context-5.3.22.jar:/tmp/foundations-154/libs/spring-tx-spring-tx-5.3.22.jar:/tmp/foundations-154/libs/javax.persistence-api-javax.persistence-api-2.2.jar:/tmp/foundations-154/libs/jboss-logging-jboss-logging-3.4.3.Final.jar:/tmp/foundations-154/libs/stax-ex-stax-ex-1.8.jar:/tmp/foundations-154/libs/spring-core-spring-core-5.3.22.jar:/tmp/foundations-154/libs/jaxb-api-jaxb-api-2.3.1.jar:/tmp/foundations-154/libs/hibernate-commons-annotations-hibernate-commons-annotations-5.1.2.Final.jar:/tmp/foundations-154/libs/antlr-antlr-2.7.7.jar:/tmp/foundations-154/libs/jandex-jandex-2.4.2.Final.jar:/tmp/foundations-154/libs/txw2-txw2-2.3.1.jar --scan-class-path=/tmp/foundations-154/classes --details=tree --disable-ansi-colors --reports-dir=/work/evidence/junit"/>
+<property name="sun.java.launcher" value="SUN_STANDARD"/>
+<property name="sun.jnu.encoding" value="UTF-8"/>
+<property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+<property name="user.dir" value="/work"/>
+<property name="user.home" value="/root"/>
+<property name="user.language" value="en"/>
+<property name="user.name" value="root"/>
+<property name="user.timezone" value="UTC"/>
+</properties>
+<testcase name="infrastructureSingletonEtProxy()" classname="SpringHibernateTest" time="0.328">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:SpringHibernateTest]/[method:infrastructureSingletonEtProxy()]
+display-name: infrastructureSingletonEtProxy()
+]]></system-out>
+</testcase>
+<testcase name="crudComplet()" classname="SpringHibernateTest" time="4.642">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:SpringHibernateTest]/[method:crudComplet()]
+display-name: crudComplet()
+]]></system-out>
+</testcase>
+<testcase name="rollbackLotEnCasDeDoublon()" classname="SpringHibernateTest" time="8.466">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:SpringHibernateTest]/[method:rollbackLotEnCasDeDoublon()]
+display-name: rollbackLotEnCasDeDoublon()
+]]></system-out>
+</testcase>
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]
+display-name: JUnit Jupiter
+]]></system-out>
+</testsuite>

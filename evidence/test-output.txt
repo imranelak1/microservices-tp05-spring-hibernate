@@ -1,0 +1,193 @@
+Compilation réelle : javac -parameters -encoding UTF-8 (7 fichiers Java)
+Picked up JAVA_TOOL_OPTIONS: -Xmx256m -XX:MaxMetaspaceSize=160m -Duser.timezone=UTC
+Exécution réelle : JUnit Platform Console, découverte des tests du projet
+Picked up JAVA_TOOL_OPTIONS: -Xmx256m -XX:MaxMetaspaceSize=160m -Duser.timezone=UTC
+Oct 15, 2026 12:58:47 AM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 5.6.12.Final
+Oct 15, 2026 12:58:48 AM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+Oct 15, 2026 12:58:51 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+Oct 15, 2026 12:58:53 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Hibernate: 
+    insert 
+    into
+        Product
+        (name, price) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        product0_.id as id1_0_,
+        product0_.name as name2_0_,
+        product0_.price as price3_0_ 
+    from
+        Product product0_ 
+    order by
+        product0_.id
+Hibernate: 
+    insert 
+    into
+        Product
+        (name, price) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        Product
+        (name, price) 
+    values
+        (?, ?)
+Oct 15, 2026 12:58:58 AM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+WARN: SQL Error: 1062, SQLState: 23000
+Oct 15, 2026 12:58:58 AM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+ERROR: Duplicate entry 'Unique-815900857842283' for key 'Product.UK_gxubutkbk5o2a6aakbe7q9kww'
+Hibernate: 
+    select
+        product0_.id as id1_0_,
+        product0_.name as name2_0_,
+        product0_.price as price3_0_ 
+    from
+        Product product0_ 
+    order by
+        product0_.id
+Hibernate: 
+    insert 
+    into
+        Product
+        (name, price) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        product0_.id as id1_0_0_,
+        product0_.name as name2_0_0_,
+        product0_.price as price3_0_0_ 
+    from
+        Product product0_ 
+    where
+        product0_.id=?
+Hibernate: 
+    delete 
+    from
+        Product 
+    where
+        id=?
+Hibernate: 
+    select
+        product0_.id as id1_0_0_,
+        product0_.name as name2_0_0_,
+        product0_.price as price3_0_0_ 
+    from
+        Product product0_ 
+    where
+        product0_.id=?
+Hibernate: 
+    delete 
+    from
+        Product 
+    where
+        id=?
+Hibernate: 
+    insert 
+    into
+        Product
+        (name, price) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        product0_.id as id1_0_0_,
+        product0_.name as name2_0_0_,
+        product0_.price as price3_0_0_ 
+    from
+        Product product0_ 
+    where
+        product0_.id=?
+Hibernate: 
+    select
+        product0_.id as id1_0_0_,
+        product0_.name as name2_0_0_,
+        product0_.price as price3_0_0_ 
+    from
+        Product product0_ 
+    where
+        product0_.id=?
+Hibernate: 
+    update
+        Product 
+    set
+        name=?,
+        price=? 
+    where
+        id=?
+Hibernate: 
+    select
+        product0_.id as id1_0_0_,
+        product0_.name as name2_0_0_,
+        product0_.price as price3_0_0_ 
+    from
+        Product product0_ 
+    where
+        product0_.id=?
+Hibernate: 
+    select
+        product0_.id as id1_0_,
+        product0_.name as name2_0_,
+        product0_.price as price3_0_ 
+    from
+        Product product0_ 
+    order by
+        product0_.id
+Hibernate: 
+    select
+        product0_.id as id1_0_0_,
+        product0_.name as name2_0_0_,
+        product0_.price as price3_0_0_ 
+    from
+        Product product0_ 
+    where
+        product0_.id=?
+Hibernate: 
+    delete 
+    from
+        Product 
+    where
+        id=?
+Hibernate: 
+    select
+        product0_.id as id1_0_0_,
+        product0_.name as name2_0_0_,
+        product0_.price as price3_0_0_ 
+    from
+        Product product0_ 
+    where
+        product0_.id=?
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+╷
+├─ JUnit Jupiter ✔
+│  └─ SpringHibernateTest ✔
+│     ├─ rollbackLotEnCasDeDoublon() ✔
+│     ├─ infrastructureSingletonEtProxy() ✔
+│     └─ crudComplet() ✔
+├─ JUnit Vintage ✔
+└─ JUnit Platform Suite ✔
+
+Test run finished after 26553 ms
+[         4 containers found      ]
+[         0 containers skipped    ]
+[         4 containers started    ]
+[         0 containers aborted    ]
+[         4 containers successful ]
+[         0 containers failed     ]
+[         3 tests found           ]
+[         0 tests skipped         ]
+[         3 tests started         ]
+[         0 tests aborted         ]
+[         3 tests successful      ]
+[         0 tests failed          ]
+

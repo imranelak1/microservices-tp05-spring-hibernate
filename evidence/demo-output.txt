@@ -1,0 +1,13 @@
+Compilation réelle : javac -parameters -encoding UTF-8 (7 fichiers Java)
+Picked up JAVA_TOOL_OPTIONS: -Xmx256m -XX:MaxMetaspaceSize=160m -Duser.timezone=UTC
+
+$ java presentation.TestHibernate 
+Picked up JAVA_TOOL_OPTIONS: -Xmx256m -XX:MaxMetaspaceSize=160m -Duser.timezone=UTC
+SessionFactory is configured correctly: org.hibernate.internal.SessionFactoryImpl@3178219a
+Transaction Manager is configured correctly: org.springframework.orm.hibernate5.HibernateTransactionManager@75babb67
+
+$ java presentation.Presentation2 
+Picked up JAVA_TOOL_OPTIONS: -Xmx256m -XX:MaxMetaspaceSize=160m -Duser.timezone=UTC
+Produit sauvegardé : Product{id=12, name='Produit 1-1792025973922', price=100.0}
+Produits après modification : [Product{id=12, name='Produit 1-1792025973922', price=120.0}]
+Produit supprimé : true
